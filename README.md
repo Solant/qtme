@@ -1,4 +1,4 @@
 qtme
 ====
 
-Turing machine emulator based on Qt
+Simple Turing machine emulator based on Qt framework with GUI.
