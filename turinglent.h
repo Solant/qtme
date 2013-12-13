@@ -7,7 +7,6 @@ class TuringLent
 {
 public:
     TuringLent();
-    void setAlphabet(QString a);
     void write(QString a);
     QChar read();
     void moveLeft();
@@ -18,7 +17,6 @@ public:
     void clean();
 
 private:
-    QString mAlphabet;
     QString mLent;
     int mIterator;
 };

@@ -2,14 +2,8 @@
 
 TuringLent::TuringLent()
 {
-    mAlphabet = "";
     mLent = "";
     mIterator = 0;
-}
-
-void TuringLent::setAlphabet(QString a)
-{
-    mAlphabet = a;
 }
 
 void TuringLent::moveRight()
